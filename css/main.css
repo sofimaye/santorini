@@ -18,16 +18,15 @@
 }
 
 .santorini {
-    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
-    font-size: xxx-large;
-    font-variant: small-caps;
-    font-style: italic;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.santorini h1 {
+    font-size: 200%;
+}
 
 .text {
     padding-top: 5%;
@@ -35,8 +34,9 @@
 
 .text p {
     padding-bottom: 5%;
-    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-family: "JetBrains Mono Medium";
     list-style-type: none;
+    font-size: 130%;
     font-variant: small-caps;
     font-style: normal;
     font-weight: bold;
@@ -46,25 +46,21 @@
 }
 
 .text h2 {
-    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-family: "JetBrains Mono Medium";
     list-style-type: none;
     font-variant: small-caps;
     font-style: normal;
-    font-weight: bold;
+    font-weight: bolder;
     flex-direction: column;
     text-align: justify;
 }
 
-.picture {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    width: 100vw;
-}
-
-.picture img {
+.text img {
     padding-top: 2%;
     padding-bottom:2%;
-    width: 100vw;
+    width: 50vw;
+    margin: 0 20px 10px 0;
+    float: left;
 
     -webkit-border-radius: 15%;
     -moz-border-radius: 15%;
@@ -90,12 +86,15 @@
     background: linear-gradient(#86b7fe 0%, #cfe2ff 90%);
 }
 
-.footer h1 {
+.footer h1, .santorini {
     text-align: center;
-    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
-    font-size: xxx-large;
+    font-family: "Courier New";
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
     font-variant: small-caps;
 }
+
 
 
 
