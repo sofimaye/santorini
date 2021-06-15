@@ -1,0 +1,101 @@
+.pic {
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #cfe2ff;
+
+
+    background: -moz-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -ms-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -o-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+
+}
+
+.pic img {
+    width: 100vw;
+}
+
+.santorini {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-size: xxx-large;
+    font-variant: small-caps;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.text {
+    padding-top: 5%;
+}
+
+.text p {
+    padding-bottom: 5%;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    list-style-type: none;
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bold;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+.text h2 {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    list-style-type: none;
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bold;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.picture {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100vw;
+}
+
+.picture img {
+    padding-top: 2%;
+    padding-bottom:2%;
+    width: 100vw;
+
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -o-border-radius: 15%;
+    border-radius: 15%;
+
+
+    background: #cff4fc;
+    background: -moz-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -ms-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -o-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+
+}
+
+
+.footer {
+    opacity: 90%;
+    background: #cff4fc;
+    background: -moz-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -ms-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -o-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+}
+
+.footer h1 {
+    text-align: center;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-size: xxx-large;
+    font-variant: small-caps;
+}
+
+
+
