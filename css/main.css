@@ -5,7 +5,6 @@
     color: white;
     background-color: #cfe2ff;
 
-
     background: -moz-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
     background: -ms-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
     background: -o-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
@@ -26,6 +25,12 @@
 
 .santorini h1 {
     font-size: 200%;
+    text-align: center;
+    text-shadow: 1px 1px 1px #cfe2ff;
+    text-transform: uppercase;
+    font-family: "Courier New";
+    font-style: italic;
+    font-weight: bold;
 }
 
 .text {
@@ -78,7 +83,6 @@
 
 
 .footer {
-    opacity: 90%;
     background: #cff4fc;
     background: -moz-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
     background: -ms-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
@@ -86,15 +90,18 @@
     background: linear-gradient(#86b7fe 0%, #cfe2ff 90%);
 }
 
-.footer h1, .santorini {
+.footer h1 {
     text-align: center;
     font-family: "Courier New";
     font-style: italic;
-    font-size: x-large;
+    font-size: 150%;
     font-weight: bold;
     font-variant: small-caps;
 }
 
-
+@media only screen and (max-width: 720px){
+    .text img { width : 100vw;
+    }
+}
 
 
