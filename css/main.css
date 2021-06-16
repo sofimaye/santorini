@@ -40,7 +40,6 @@
 .text p {
     padding-bottom: 5%;
     font-family: "JetBrains Mono Medium";
-    list-style-type: none;
     font-size: 130%;
     font-variant: small-caps;
     font-style: normal;
@@ -52,13 +51,11 @@
 
 .text h2 {
     font-family: "JetBrains Mono Medium";
-    list-style-type: none;
     font-variant: small-caps;
     font-style: normal;
     font-weight: bolder;
-    flex-direction: column;
-    text-align: justify;
 }
+
 
 .text img {
     padding-top: 2%;
